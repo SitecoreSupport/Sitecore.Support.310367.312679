@@ -6,7 +6,6 @@ namespace Sitecore.Support.XA.Feature.Composites.Pipelines.GetChromeData
 {
     // EnableEditingOfInjectedCompositeRenderings
     using Microsoft.Extensions.DependencyInjection;
-    using Sitecore.Configuration;
     using Sitecore.Data;
     using Sitecore.DependencyInjection;
     using Sitecore.Diagnostics;
@@ -28,7 +27,6 @@ namespace Sitecore.Support.XA.Feature.Composites.Pipelines.GetChromeData
     using System.Web;
     using Sitecore.Data.Fields;
     using Sitecore.XA.Foundation.SitecoreExtensions.Extensions;
-    using Sitecore.StringExtensions;
 
     public class EnableEditingOfInjectedCompositeRenderings : EnableEditingOnCompositeItems
     {

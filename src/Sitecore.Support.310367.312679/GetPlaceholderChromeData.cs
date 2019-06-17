@@ -3,7 +3,6 @@
 // GetPlaceholderChromeData
     using Microsoft.Extensions.DependencyInjection;
     using Sitecore;
-    using Sitecore.Configuration;
     using Sitecore.Data;
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
@@ -14,18 +13,14 @@
     using Sitecore.Pipelines.GetChromeData;
     using Sitecore.Pipelines.GetPlaceholderRenderings;
     using Sitecore.StringExtensions;
-    using Sitecore.Web;
     using Sitecore.Web.UI.PageModes;
     using Sitecore.XA.Foundation.Abstractions;
     using Sitecore.XA.Foundation.Abstractions.Configuration;
     using Sitecore.XA.Foundation.Caching;
-    using Sitecore.XA.Foundation.Editing;
     using Sitecore.XA.Foundation.Multisite.Extensions;
     using Sitecore.XA.Foundation.PlaceholderSettings;
     using Sitecore.XA.Foundation.PlaceholderSettings.Services;
-    using Sitecore.XA.Foundation.Presentation;
-    using Sitecore.XA.Foundation.Presentation.Layout;
-    using Sitecore.XA.Foundation.SitecoreExtensions.Extensions;
+    
     using System;
     using System.Collections.Generic;
     using System.Linq;
